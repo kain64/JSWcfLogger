@@ -21,7 +21,7 @@ namespace JSWcfLogger
         {
             Logger logger = null;
                 
-            if (!NLog.LogManager.Configuration.ConfiguredNamedTargets.Any(t => t.Name.Equals("NameToValidate")))
+            if (!NLog.LogManager.Configuration.ConfiguredNamedTargets.Any(t => t.Name.Equals(appName)))
             { 
                 var target = new FileTarget();
                 target.Name = appName;
