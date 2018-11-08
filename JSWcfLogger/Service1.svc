@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="JSWcfLogger.LogService" CodeBehind="Service1.svc.cs" %>
